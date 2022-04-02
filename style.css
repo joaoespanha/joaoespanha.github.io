@@ -1,19 +1,33 @@
+* {
+    margin: 0;
+
+
+}
+
 body {
     font-family: 'Quicksand', sans-serif; 
-    background-color: #C7EEDF;
+    background-color: #ADDBE2;
 
 
 
 }
 
+.header {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: #C7EEDF ;
+}
 
-.align-center {
+.header-title {
     text-align: center;
-    text-shadow: 3px 3px 5px #7563EC ;
+
 
 }
+.header-content {
+    background-image: linear-gradient(to bottom, #C7EEDF, #ADDBE2)
 
-
+}
 
 .pictures {
     width: 20%;
@@ -41,4 +55,15 @@ body {
 
 }
 
+li:nth-child(1) {
+    background-color: color-mix(in srgb, #34c9eb 10%, white);
+  }
+  
+  li:nth-child(2) {
+    background-color: color-mix(in srgb, #34c9eb 40%, white);
+  }
+  
+  li:nth-child(3) {
+    background-color: color-mix(in srgb, #34c9eb 70%, white);
+  }
 
